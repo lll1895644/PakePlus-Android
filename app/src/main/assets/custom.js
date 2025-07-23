@@ -29,3 +29,5 @@ window.open = function (url, target, features) {
 }
 
 document.addEventListener('click', hookClick, { capture: true })
+plus.navigator.setFullscreen(true);  // 启用全屏
+plus.screen.lockOrientation('landscape-primary');  // 锁定横屏
